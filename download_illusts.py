@@ -24,8 +24,8 @@ _REQUESTS_KWARGS = {
 def main():
     # aapi = AppPixivAPI(**_REQUESTS_KWARGS)
     aapi = AppPixivAPI()
-    aapi.login("lkfo415579", "wwq9032sa0")
-    # aapi.login("gm0648", "qq321520")
+    aapi.login("lkfo415579", "")
+    # aapi.login("gm0648", "")
 
     from_date = datetime.datetime.strptime(sys.argv[1], "%Y%m%d").date()
     TOP = 30
